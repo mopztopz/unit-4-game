@@ -1,0 +1,23 @@
+body {
+    background: #0095CC !important;
+}
+
+.player {
+    background: #28C5FF;
+    color: black;
+}
+
+h6{
+    color: black !important;
+}
+
+.jumbotron {
+    height: 100% !important;
+    width: 100% !important;
+    background: #005D7F !important;
+}
+
+
+.jumbo_top {
+   background-image: url(../images/sun-pattern.png) !important;
+}
