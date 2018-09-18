@@ -21,6 +21,9 @@ var loss = 0;
 randScore = Math.floor(Math.random() * (121 - 19)) + 19;
 console.log(randScore);
 
+var audioElement = document.createElement("audio");
+    audioElement.setAttribute("src", "assets/audio/pop.wav");
+
 // MAJOR TASK #1: DYNAMICALLY CREATE CRYSTAL IMAGES as buttons
 // =================================================================================
 
@@ -64,24 +67,28 @@ $("#randScore").text(randScore);
 $("#crystal1").on("click", function() {
   crystalValues += crystalValues1;
   $("#totalScore").text(crystalValues);
+  audioElement.play();
   checkResult();
 });
 
 $("#crystal2").on("click", function() {
   crystalValues += crystalValues2;
   $("#totalScore").text(crystalValues);
+  audioElement.play();
   checkResult();
 });
 
 $("#crystal3").on("click", function() {
   crystalValues += crystalValues3;
   $("#totalScore").text(crystalValues);
+  audioElement.play();
   checkResult();
 });
 
 $("#crystal4").on("click", function() {
   crystalValues += crystalValues4;
   $("#totalScore").text(crystalValues);
+  audioElement.play();
   checkResult();
 });
 

@@ -7,7 +7,13 @@ body {
     color: black;
 }
 
-h6{
+.cards {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+h6 {
     color: black !important;
 }
 
@@ -17,7 +23,14 @@ h6{
     background: #005D7F !important;
 }
 
+footer {
+    background: #0095CC !important;
+    border-top: solid black 7px !important;
+    text-align: center;
+    color: white;
+    height: 5%;
+}
 
 .jumbo_top {
-   background-image: url(../images/sun-pattern.png) !important;
+    background-image: url(../images/sun-pattern.png) !important;
 }
