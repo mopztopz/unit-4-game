@@ -11,6 +11,7 @@ body {
     font-family: 'Shadows Into Light', cursive;
     font-size: 50px;
     font-weight: bolder;
+    border: solid black 2px !important;
 }
 
 h6 {
@@ -25,7 +26,7 @@ h6 {
 
 footer {
     background: #0095CC !important;
-    border-top: solid black 7px !important;
+    border-top: solid black 2px !important;
     text-align: center;
     color: white;
     height: 5%;
